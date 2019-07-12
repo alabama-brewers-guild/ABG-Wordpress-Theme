@@ -7,3 +7,84 @@ Template: Avada
 Version: 1.0.0
 Text Domain:  Avada
 */
+#businesslist .business {
+	text-align: center !important;
+}
+#businesslist .logo {
+    width: 110px !important;
+    margin-right: 0 !important;
+}
+#businesslist ul.icons {
+	padding-inline-start: 0px !important;
+}
+.search-result .location h3  {
+ 	visibility: hidden !important;
+ 	display: none !important;
+}
+#membership_form legend {
+	font-size: 18px !important;
+	font-family: "Klinic Slab Medium", Arial, Helvetica, sans-serif !important;
+	line-height: 1.5;
+	font-style: normal;
+	font-weight: 700;
+	color: #50260f;
+	display: block;
+	margin-bottom: 10px;
+}
+.page-id-13875 h4,
+.page-id-13874 h4,
+.page-id-13872 h4{
+	font-size: 1.4em !important;
+	margin-bottom: 10px !important;
+	display: table !important;
+	font-family: 'Nunito', sans-serif !important;
+	color: #384047 !important;
+	line-height: 1.15 !important;
+}
+.page-id-13875 label,
+.page-id-13874 label,
+.page-id-13872 label {
+	display: block !important;
+	margin-bottom: 8px !important;
+	font-family: 'Nunito', sans-serif !important;
+	color: #384047 !important;
+	line-height: 1.15 !important;
+	box-sizing: border-box;
+	display: block;
+}
+.page-id-13875 input, .page-id-13875 select, .page-id-13875 textarea, 
+.page-id-13864 input, .page-id-13864 select, .page-id-13864 textarea,
+.page-id-13874 input, .page-id-13874 select, .page-id-13874 textarea,
+.page-id-13872 input, .page-id-13872 select, .page-id-13872 textarea   {
+	background: rgba(255, 255, 255, 0.1) !important;
+	border: none !important;
+	font-size: 16px !important;
+	height: auto !important;
+	margin: 0 !important;
+	outline: 0 !important;
+	padding: 15px !important;
+	width: 100% !important;
+	background-color: #e8eeef !important;
+	color: #8a97a0 !important;
+	font-family: sans-serif !important;
+	line-height: 1.15 !important;
+	overflow: visible !important;
+}
+.page-id-13864 input#rememberme {
+	width: inherit !important;
+}
+.page-id-13875 .submit,
+.page-id-13864 #wppb-submit,
+.page-id-13874 #register,
+.page-id-13872 #wppb-recover-password-button {
+	background-color: #50260f !important;
+	color: #fff !important;
+}
+.page-id-13875 ul,
+.page-id-13864 ul,
+.page-id-13872 ul {
+	max-width: 100% !important;
+}
+.wppb-description-delimiter {
+	margin-left: 0px !important;
+}
