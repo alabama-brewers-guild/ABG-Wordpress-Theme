@@ -52,7 +52,7 @@ function do_menu_shortcodes( $menu ){
 add_shortcode( 'current-username' , 'username_on_menu' );
 function username_on_menu(){
 	$user = wp_get_current_user();
-    return '<span style="font-style:italic; font-weight: normal; display: block; font-size: 10px;">' . $user->display_name . "</span><span>Profile</span>";
+    return '<span style="font-style:italic; font-weight: normal; display: block; font-size: 10px;">' . $user->display_name . "</span>";
 }
 
 // Custom link on login page

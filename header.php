@@ -74,7 +74,7 @@ if ( 'modern' === Avada()->settings->get( 'mobile_menu_design' ) ) {
 	<?php endif; ?>
 	<div id="wrapper" class="<?php echo esc_attr( $wrapper_class ); ?>">
 		<div id="home" style="position:relative;top:-1px;"></div>
-		<?php avada_header_template( 'Below', ( is_archive() || Avada_Helper::bbp_is_topic_tag() ) && ! ( class_exists( 'WooCommerce' ) && is_shop() ) ); ?>
+		<?php /* avada_header_template( 'Below', ( is_archive() || Avada_Helper::bbp_is_topic_tag() ) && ! ( class_exists( 'WooCommerce' ) && is_shop() ) ); */ ?>
 		<?php if ( 'Left' === Avada()->settings->get( 'header_position' ) || 'Right' === Avada()->settings->get( 'header_position' ) ) : ?>
 			<?php avada_side_header(); ?>
 		<?php endif; ?>
